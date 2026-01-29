@@ -1,16 +1,53 @@
-# React + Vite
+# 🎨 Pollinations Creative Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Pollinations Logo](https://pollinations.ai/k/logo_text_black.png)
 
-Currently, two official plugins are available:
+[![Built With Pollinations.ai](https://img.shields.io/badge/Built%20With-Pollinations.ai-blue?style=for-the-badge&logo=pollinations&logoColor=white)](https://pollinations.ai)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Uma interface **React** moderna para criação de conteúdo assistida por Inteligência Artificial. Este aplicativo integra-se diretamente à API do **Pollinations.ai** para gerar imagens artísticas (via modelo Flux) e textos criativos (compatível com OpenAI), utilizando uma chave de API personalizada.
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Geração de Imagens**: Criação de visuais de alta qualidade (Cyberpunk, Anime, Realista) usando o modelo `Flux`.
+- **Geração de Texto**: Assistente para redigir artigos, títulos SEO e reviews.
+- **Interface Dark/Tech**: Design responsivo inspirado em estética futurista.
+- **API Key Personalizada**: Integração configurada para uso de Chave Pública (`pk_...`) para persistência e recursos avançados.
 
-## Expanding the ESLint configuration
+🤝 Créditos e Atribuição
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este aplicativo é orgulhosamente construído sobre a tecnologia do Pollinations.ai.
+
+Core AI: Pollinations.ai
+
+Modelos de Imagem: Flux, Stable Diffusion (via Pollinations)
+
+Processamento de Texto: OpenAI-compatible endpoint (via Pollinations)
+
+"A free, open-source platform for AI-generated media."
+
+📄 Licença
+
+Este projeto é de uso livre para fins de estudo e desenvolvimento pessoal. O conteúdo gerado segue os termos de uso do Pollinations.ai.
+
+🚀 Como Usar
+
+1. Clone o repositório
+2. Instale as dependências com `npm install`
+3. Configure sua chave de API no arquivo `.env`
+4. Execute com `npm start`
+
+🔗 Links Úteis
+
+Pollinations.ai - https://pollinations.ai
+
+Documentação da API - https://docs.pollinations.ai
+
+💡 Contribuições
+
+Aceitamos pull requests! Sinta-se à vontade para melhorar a interface ou adicionar novos recursos.
+
+📌 Versão
+
+1.0.0 (Versão Inicial)
+
+📅 Atualizado em: 2024-05-20
